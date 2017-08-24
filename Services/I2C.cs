@@ -4,7 +4,7 @@ namespace Robot.Services
 {
     public class I2CService {
         public static int OPEN_READ_WRITE = 2;
-        public static int I2C_SLAVE = 0x07;
+        public static int I2C_SLAVE = 0x0703;
  
         [DllImport("libc.so.6", EntryPoint = "open")]
         public extern static int Open(string fileName, int mode);
